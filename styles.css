@@ -1,0 +1,68 @@
+.header {
+    background-color: #1F2937;
+    font-family: Roboto, Arial, sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.top-band {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    
+}
+.top {
+    font-size: 28px;
+    font-weight: 800;
+    flex: 1.7;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.links a:hover {
+    color: gray;
+}
+
+.title-content {
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+
+.title-left {
+    flex: 1;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: #3882F6;
+    margin-top: 7px;
+    border-radius: 15px;
+    border:0;
+    height:30px;
+    width: 100px;
+    color: white;
+    font-weight: 700;
+}
+
+.title-image {
+    width:300px;
+    flex: 1;
+    margin-left: 40px;
+}
