@@ -44,6 +44,7 @@ body {
     margin-top: 100px;
     padding-bottom: 80px;
     color: #E5E7EB;
+    font-size: 15px;
 }
 
 .title-left {
@@ -112,6 +113,7 @@ button a:hover {
 .images div p {
     width: 250px;
     text-align: center;
+    font-size: 15px;
 }
 
 .quote {
@@ -157,6 +159,9 @@ button a:hover {
     flex:1; 
     color: #E5E7EB;
     margin-left: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .first {
@@ -188,4 +193,5 @@ button a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 17px;
 }
